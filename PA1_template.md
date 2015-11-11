@@ -143,7 +143,7 @@ print(paste0("Max Average Steps = ", max.steps, ", At Interval = ", max.interval
 
 ## Imputing missing values
 
-### Create a new dataset "NA.steps" from "steps" by imputing the NA values.
+### Create a new dataset "imputed.steps" from "steps" by imputing the NA values.
 
 ```r
 imputed.steps <- steps
