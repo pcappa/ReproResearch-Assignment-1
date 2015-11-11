@@ -262,7 +262,7 @@ plot.ss <- function(datasubset) {
 # Start a new panel plot.
 
 plot.new()
-par(mfrow=c(1,2))               # Setup for one row, two plots.
+par(mfcol=c(2,1), pin=c(5,1.5))               # Setup for two rows, one column for the two plots.
 plot.ss("Weekday")              # Plot the average weekday activity by interval.
 plot.ss("Weekend Days")         # Plot the average weekend day activity by interval.
 ```
